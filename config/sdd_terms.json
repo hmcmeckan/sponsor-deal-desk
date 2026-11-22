@@ -1,0 +1,92 @@
+[
+  {
+    "key": "creator_description",
+    "value": "Independent gaming YouTube creator with no manager",
+    "note": "Sent to the Decide model"
+  },
+  {
+    "key": "channel_niche",
+    "value": "Gaming: fast-paced playthroughs, challenge runs and variety gameplay videos",
+    "note": "Used for audience-fit judgment"
+  },
+  {
+    "key": "youtube_channel_id",
+    "value": "@cjya",
+    "note": "Real public gaming channel used for live view counts; channel ID or @handle both work"
+  },
+  {
+    "key": "creator_address",
+    "value": "",
+    "note": "Mail from this address is never processed (stops reply loops)"
+  },
+  {
+    "key": "creator_signoff",
+    "value": "Thanks!",
+    "note": "The reply model uses this sign-off"
+  },
+  {
+    "key": "refused_categories",
+    "value": "online_gambling",
+    "note": "Semicolon list of Screen categories; offers in these are declined"
+  },
+  {
+    "key": "paid_ad_use_allowed",
+    "value": "FALSE",
+    "note": "Red line: paid-ad or whitelisting use escalates"
+  },
+  {
+    "key": "max_exclusivity_days",
+    "value": "30",
+    "note": "Red line: longer exclusivity escalates"
+  },
+  {
+    "key": "max_payment_net_days",
+    "value": "45",
+    "note": "Red line: payment later than Net 45 escalates"
+  },
+  {
+    "key": "max_counters_per_thread",
+    "value": "2",
+    "note": "Third counter is never sent; the thread escalates"
+  },
+  {
+    "key": "min_eligible_uploads",
+    "value": "5",
+    "note": "Fewer long-form uploads with settled views -> escalate, price not guessed"
+  },
+  {
+    "key": "min_upload_age_days",
+    "value": "7",
+    "note": "Uploads younger than this are excluded from the median"
+  },
+  {
+    "key": "max_email_chars",
+    "value": "6000",
+    "note": "Longer emails escalate instead of being silently truncated"
+  },
+  {
+    "key": "auto_send_decline",
+    "value": "TRUE",
+    "note": "Send policy: TRUE = send declines automatically; FALSE = save as draft"
+  },
+  {
+    "key": "auto_send_counter",
+    "value": "TRUE",
+    "note": "Send policy: TRUE = send counters and rate quotes automatically; FALSE = save as draft"
+  },
+  {
+    "key": "personal_email_domains",
+    "value": "gmail.com;googlemail.com;yahoo.com;outlook.com;hotmail.com;live.com;icloud.com;me.com;aol.com;proton.me;protonmail.com;gmx.com;mail.com;yandex.com",
+    "note": "Sponsorship from these for an unregistered brand is escalated to the creator (stays in the inbox)"
+  },
+  {
+    "key": "test_sender_allowlist",
+    "value": "",
+    "note": "Exact addresses only, semicolon-separated (e.g. teammates' Gmail test accounts). They skip the personal-address rule; never list a whole domain"
+  },
+  {
+    "key": "risky_attachment_extensions",
+    "value": "exe;scr;bat;cmd;com;pif;js;jse;vbs;vbe;wsf;wsh;msi;msix;ps1;jar;lnk;iso;img;hta;cpl;reg;apk;dmg;pkg;app;docm;xlsm;pptm;zip;rar;7z",
+    "note": "Plus double extensions such as Agreement.pdf.scr"
+  }
+]

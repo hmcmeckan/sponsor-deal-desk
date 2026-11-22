@@ -1,0 +1,23 @@
+[
+  {
+    "deliverable": "integrated",
+    "floor_usd": "6000",
+    "usd_per_1k_views": "25",
+    "source": "REPLACE: rate guide name and URL for the per-1k figure; floor is the creator's own minimum (set for a mid-tier gaming channel)",
+    "retrieved": "REPLACE"
+  },
+  {
+    "deliverable": "dedicated",
+    "floor_usd": "12000",
+    "usd_per_1k_views": "45",
+    "source": "REPLACE: rate guide name and URL",
+    "retrieved": "REPLACE"
+  },
+  {
+    "deliverable": "short",
+    "floor_usd": "2000",
+    "usd_per_1k_views": "8",
+    "source": "REPLACE: rate guide name and URL",
+    "retrieved": "REPLACE"
+  }
+]

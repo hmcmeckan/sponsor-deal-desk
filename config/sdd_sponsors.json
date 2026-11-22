@@ -1,0 +1,93 @@
+[
+  {
+    "sponsor_key": "pixelforge",
+    "brand_name": "Pixelforge Gear",
+    "official_domains": "pixelforgegear.example;nyu.edu",
+    "category": "gaming_hardware",
+    "deals_count": "2",
+    "last_rate_per_video_usd": "8000",
+    "last_deliverable": "integrated",
+    "last_deal_date": "2026-04-15",
+    "median_views_at_last_deal": "REPLACE",
+    "paid_on_time": "TRUE",
+    "notes": "Seeded demo history (returning sponsor). nyu.edu is listed only so teammates' test emails count as Pixelforge. Set median_views_at_last_deal to about 2/3 of the median_views shown in Apply Pricing Rules, so the target is about 1.5x the last rate (about $12,000)."
+  },
+  {
+    "sponsor_key": "overclock",
+    "brand_name": "Overclock Energy",
+    "official_domains": "overclockenergy.example",
+    "category": "energy_drinks_food",
+    "deals_count": "2",
+    "last_rate_per_video_usd": "7000",
+    "last_deliverable": "integrated",
+    "last_deal_date": "2025-09-02",
+    "median_views_at_last_deal": "450000",
+    "paid_on_time": "FALSE",
+    "notes": "Seeded late payer: offers escalate (D-LATEPAYER)"
+  },
+  {
+    "sponsor_key": "nordvpn",
+    "brand_name": "NordVPN",
+    "official_domains": "nordvpn.com;nordsec.com",
+    "category": "vpn_security",
+    "deals_count": "0",
+    "last_rate_per_video_usd": "",
+    "last_deliverable": "",
+    "last_deal_date": "",
+    "median_views_at_last_deal": "",
+    "paid_on_time": "",
+    "notes": "Registry only: catches lookalikes such as n0rdvpn-partners.co"
+  },
+  {
+    "sponsor_key": "razer",
+    "brand_name": "Razer",
+    "official_domains": "razer.com",
+    "category": "gaming_hardware",
+    "deals_count": "0",
+    "last_rate_per_video_usd": "",
+    "last_deliverable": "",
+    "last_deal_date": "",
+    "median_views_at_last_deal": "",
+    "paid_on_time": "",
+    "notes": "Registry only"
+  },
+  {
+    "sponsor_key": "steelseries",
+    "brand_name": "SteelSeries",
+    "official_domains": "steelseries.com",
+    "category": "gaming_hardware",
+    "deals_count": "0",
+    "last_rate_per_video_usd": "",
+    "last_deliverable": "",
+    "last_deal_date": "",
+    "median_views_at_last_deal": "",
+    "paid_on_time": "",
+    "notes": "Registry only"
+  },
+  {
+    "sponsor_key": "gfuel",
+    "brand_name": "G FUEL",
+    "official_domains": "gfuel.com",
+    "category": "energy_drinks_food",
+    "deals_count": "0",
+    "last_rate_per_video_usd": "",
+    "last_deliverable": "",
+    "last_deal_date": "",
+    "median_views_at_last_deal": "",
+    "paid_on_time": "",
+    "notes": "Registry only"
+  },
+  {
+    "sponsor_key": "raidshadowlegends",
+    "brand_name": "Raid Shadow Legends",
+    "official_domains": "plarium.com",
+    "category": "games",
+    "deals_count": "0",
+    "last_rate_per_video_usd": "",
+    "last_deliverable": "",
+    "last_deal_date": "",
+    "median_views_at_last_deal": "",
+    "paid_on_time": "",
+    "notes": "Registry only (publisher: Plarium)"
+  }
+]
