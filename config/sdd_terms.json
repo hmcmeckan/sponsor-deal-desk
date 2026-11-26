@@ -2,12 +2,17 @@
   {
     "key": "creator_description",
     "value": "Independent gaming YouTube creator with no manager",
-    "note": "Sent to the Decide model"
+    "note": "Sent to the Decide model and the reply writer"
   },
   {
     "key": "channel_niche",
     "value": "Gaming: fast-paced playthroughs, challenge runs and variety gameplay videos",
     "note": "Used for audience-fit judgment"
+  },
+  {
+    "key": "audience_description",
+    "value": "REPLACE: who watches @cjya (age range, platforms, games, what they buy)",
+    "note": "Week 4: the reply writer uses this to explain why the channel fits the sponsor's product"
   },
   {
     "key": "youtube_channel_id",
@@ -32,17 +37,42 @@
   {
     "key": "paid_ad_use_allowed",
     "value": "FALSE",
-    "note": "Red line: paid-ad or whitelisting use escalates"
+    "note": "Red line: paid-ad or whitelisting use escalates; never traded"
   },
   {
     "key": "max_exclusivity_days",
     "value": "30",
-    "note": "Red line: longer exclusivity escalates"
+    "note": "Limit: the agent never proposes more; a longer ask is countered back inside it (or escalates if counter_over_limit_terms is FALSE)"
   },
   {
     "key": "max_payment_net_days",
     "value": "45",
-    "note": "Red line: payment later than Net 45 escalates"
+    "note": "Limit: the agent never proposes later payment; a later ask is countered back inside it (or escalates if counter_over_limit_terms is FALSE)"
+  },
+  {
+    "key": "preferred_exclusivity_days",
+    "value": "14",
+    "note": "Week 4: creator's standard exclusivity, used when the sponsor states none and in rate quotes"
+  },
+  {
+    "key": "preferred_payment_net_days",
+    "value": "30",
+    "note": "Week 4: creator's standard payment terms, used when the sponsor states none and in rate quotes"
+  },
+  {
+    "key": "max_videos_per_deal",
+    "value": "6",
+    "note": "Week 4: the agent may propose 1 to this many videos when trading terms"
+  },
+  {
+    "key": "counter_over_limit_terms",
+    "value": "TRUE",
+    "note": "Week 4: TRUE = counter over-limit exclusivity or payment back inside the limits; FALSE = escalate as in Week 3"
+  },
+  {
+    "key": "share_views_in_replies",
+    "value": "TRUE",
+    "note": "Week 4: TRUE = replies may mention typical views on a recent long-form video"
   },
   {
     "key": "max_counters_per_thread",
